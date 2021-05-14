@@ -10,7 +10,7 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home,
-    meta: { title: '首页' }
+    meta: { title: 'home' }
   },
   {
     path: '/post/:id',
@@ -22,7 +22,7 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    meta: {title: '关于'},
+    meta: {title: 'about'},
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.

@@ -35,6 +35,7 @@ export default {
       let targetIndex = this.visitedRoute.findIndex(item => item.path === e.target.dataset.path);
       if (targetIndex !== -1) {
         this.visitedRoute.splice(targetIndex, 1);
+        this.$router.replace(this.visitedRoute[this.visitedRoute.length - 1].path);
       }
     }
   }
