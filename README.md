@@ -1,4 +1,4 @@
-# tabs-demo
+# vue-page-nav-tabs
 
 ## Project setup
 ```
